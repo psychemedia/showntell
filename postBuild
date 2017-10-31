@@ -3,7 +3,6 @@
 jupyter contrib nbextension install --user
 jupyter-nbextension install rise --py --user
 jupyter-nbextension enable rise
-jupyter-nbextension enable nglview
 jupyter nbextension enable --py widgetsnbextension
 jupyter nbextension enable python-markdown/main
 
@@ -12,3 +11,5 @@ jupyter nbextension enable --py jupyter_wysiwyg
 
 # Notebooks w/ extensions that auto-run code must be "trusted" to work the first time
 jupyter trust index.ipynb
+jupyter trust index_maths.ipynb
+
