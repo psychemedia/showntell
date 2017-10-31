@@ -1,7 +1,10 @@
 RISE
-matplotlib
 jupyter-wysiwyg
+jupyter_contrib_nbextensions
+ipywidgets
+
+matplotlib
 sympy
 graphviz
 pandas
-ipywidgets
+
