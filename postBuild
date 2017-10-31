@@ -6,7 +6,7 @@ jupyter-nbextension enable rise
 jupyter nbextension enable --py widgetsnbextension
 jupyter nbextension enable python-markdown/main
 
-jupyter-nbextension install --py jupyter_wysiwyg --user
+jupyter-nbextension install jupyter_wysiwyg --py --user
 jupyter nbextension enable --py jupyter_wysiwyg
 
 # Notebooks w/ extensions that auto-run code must be "trusted" to work the first time
