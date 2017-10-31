@@ -1,3 +1,4 @@
 RISE
-jupyter-wysiwyg
 ipywidgets
+jupyter_contrib_nbextensions
+jupyter-wysiwyg
