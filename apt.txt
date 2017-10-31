@@ -1,0 +1,4 @@
+frescobaldi
+musescore
+asymptote
+graphviz
