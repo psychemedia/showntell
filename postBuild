@@ -1,6 +1,6 @@
 #!/bin/bash
 
-su - jovyan -s/bin/bash -c <<EOF
+runuser -l jovyan -c <<EOF
 R --quiet -e "install.packages(c('stringr', 'reshape2', 'ggplot2’),repos='http://cran.us.r-project.org')”
 EOF
 
