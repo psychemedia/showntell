@@ -1,4 +1,3 @@
-frescobaldi
-musescore
-asymptote
 graphviz
+
+ngspice
