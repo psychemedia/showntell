@@ -1,5 +1,7 @@
+#Jupyter enhancements
 RISE
-MDAnalysis
+ipywidgets
+
+#Music packages
 music21
 
-ipywidgets
