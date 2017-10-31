@@ -1,13 +1,6 @@
 RISE
-matplotlib
-folium
+jupyter-wysiwyg
+ipywidgets
+
 nglview
 MDAnalysis
-music21
-jupyter-wysiwyg
-schemdraw
-sympy
-graphviz
-pandas
-rpy2
-ipywidgets
