@@ -1,3 +1,2 @@
-build-dep
 lilypond
 musescore
