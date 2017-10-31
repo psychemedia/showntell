@@ -1,4 +1,2 @@
 frescobaldi
 musescore
-asymptote
-graphviz
