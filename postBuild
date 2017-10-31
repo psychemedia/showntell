@@ -1,6 +1,7 @@
 #!/bin/bash
+mkdir -p ~/Rpackages
 
-R --quiet -e "install.packages(c('stringr', 'reshape2', 'ggplot2'),repos='http://cran.us.r-project.org')"
+R --quiet -e "install.packages(c('stringr', 'reshape2', 'ggplot2'),repos='http://cran.us.r-project.org', lib.loc='~/Rpackages')"
 
 # Notebooks w/ extensions that auto-run code must be "trusted" to work the first time
 jupyter trust index.ipynb
