@@ -1,6 +1,6 @@
 #!/bin/bash
 
-runuser -l jovyan -c "R --quiet -e \"install.packages(c('stringr', 'reshape2', 'ggplot2'),repos='http://cran.us.r-project.org')\""
+sudo -u jovyan -c "R --quiet -e \"install.packages(c('stringr', 'reshape2', 'ggplot2'),repos='http://cran.us.r-project.org')\""
 
 # Notebooks w/ extensions that auto-run code must be "trusted" to work the first time
 jupyter trust index.ipynb
