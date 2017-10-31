@@ -1,7 +1,12 @@
 #Jupyter enhancements
 RISE
 ipywidgets
+jupyter_contrib_nbextensions
 
 #Music packages
 music21
+
+matplotlib
+numpy
+scipy
 
