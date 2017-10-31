@@ -2,3 +2,10 @@ RISE
 ipywidgets
 jupyter_contrib_nbextensions
 jupyter-wysiwyg
+
+matplotlib
+pandas
+geopandas
+folium
+ipyleaflet
+git+https://github.com/OpenGeoscience/geonotebook
