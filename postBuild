@@ -1,14 +1,7 @@
 #!/bin/bash
 
-jupyter contrib nbextension install --user
-jupyter-nbextension install rise --py --user
-jupyter-nbextension enable rise
-jupyter-nbextension enable nglview
-jupyter nbextension enable --py widgetsnbextension
-jupyter nbextension enable python-markdown/main
-
-jupyter-nbextension install --py jupyter_wysiwyg --user
-jupyter nbextension enable --py jupyter_wysiwyg
+R --quiet -e "install.packages(c('stringr', 'reshape2', 'ggplot2'))"
 
 # Notebooks w/ extensions that auto-run code must be "trusted" to work the first time
 jupyter trust index.ipynb
+jupyter trust index_R.ipynb
