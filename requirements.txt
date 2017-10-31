@@ -8,4 +8,5 @@ pandas
 geopandas
 folium
 ipyleaflet
-git+https://github.com/OpenGeoscience/geonotebook
+
+#git+https://github.com/OpenGeoscience/geonotebook
