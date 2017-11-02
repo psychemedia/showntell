@@ -14,7 +14,9 @@ pandas
 sympy
 
 #See also: https://pyscience.wordpress.com/2014/09/03/ipython-notebook-vtk/
-mayavi
+
+##mayavi being crappy - wants numpy but it’s not installed yet…
+#mayavi
 
 #https://github.com/skyfielders/astronomy-notebooks
 pyephem
