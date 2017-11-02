@@ -9,10 +9,10 @@ jupyter-wysiwyg
 # python-wxgtk2.8
 ##
 
-pandas
-
 numpy
+pandas
 sympy
+
 #See also: https://pyscience.wordpress.com/2014/09/03/ipython-notebook-vtk/
 mayavi
 
