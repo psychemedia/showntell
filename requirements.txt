@@ -9,6 +9,7 @@ jupyter-wysiwyg
 # python-wxgtk2.8
 ##
 
+matplotlib
 numpy
 pandas
 sympy
