@@ -3,6 +3,12 @@ ipywidgets
 jupyter_contrib_nbextensions
 jupyter-wysiwyg
 
+
+## For apt.txt - but not found atm?
+# python-vtk
+# python-wxgtk2.8
+##
+
 pandas
 
 numpy
