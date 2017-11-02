@@ -10,5 +10,11 @@ jupyter-nbextension enable rise  --py --user
 jupyter-nbextension install jupyter_wysiwyg --py --user
 jupyter nbextension enable jupyter_wysiwyg  --py --user 
 
+jupyter nbextension install --overwrite --py nbtutor
+jupyter nbextension enable --py nbtutor
+
+jupyter nbextension enable --py --sys-prefix ipyturtle
+
 # Notebooks w/ extensions that auto-run code must be "trusted" to work the first time
 jupyter trust index.ipynb
+jupyter trust index_computing.ipynb
