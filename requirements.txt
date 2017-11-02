@@ -2,3 +2,13 @@ RISE
 ipywidgets
 jupyter_contrib_nbextensions
 jupyter-wysiwyg
+
+
+#https://github.com/BruceSherwood/vpython-jupyter
+vpython
+
+#https://github.com/jovyan/pythreejs
+pythreejs
+
+#https://ipyvolume.readthedocs.io/en/latest/
+ipyvolume
