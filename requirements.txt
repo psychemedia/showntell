@@ -4,5 +4,8 @@ jupyter_contrib_nbextensions
 jupyter-wysiwyg
 
 
+#https://github.com/lgpage/nbtutor - BROKEN?
 nbtutor
+
+#https://github.com/gkvoelkl/ipython-turtle-widget/
 ipyturtle
