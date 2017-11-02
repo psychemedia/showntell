@@ -2,3 +2,22 @@ RISE
 ipywidgets
 jupyter_contrib_nbextensions
 jupyter-wysiwyg
+
+pandas
+
+numpy
+sympy
+#See also: https://pyscience.wordpress.com/2014/09/03/ipython-notebook-vtk/
+mayavi
+
+#https://github.com/skyfielders/astronomy-notebooks
+pyephem
+jplephem
+de405
+sgp4
+skyfield
+
+#Also requires mongo?
+vizic
+
+
