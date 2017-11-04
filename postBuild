@@ -1,10 +1,11 @@
 #!/bin/bash
 
 jupyter contrib nbextension install --user
+jupyter nbextension enable widgetsnbextension  --py --user
+jupyter nbextension enable python-markdown/main  --py --user
+
 jupyter-nbextension install rise --py --user
-jupyter-nbextension enable rise
-jupyter nbextension enable --py widgetsnbextension
-jupyter nbextension enable python-markdown/main
+jupyter-nbextension enable rise  --py --user 
 
 jupyter-nbextension install jupyter_wysiwyg --py --user
 jupyter nbextension enable --py jupyter_wysiwyg
