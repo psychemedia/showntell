@@ -1,4 +1,1 @@
 graphviz
-
-#Need to build by hand?
-#ngspice

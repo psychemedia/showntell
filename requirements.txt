@@ -15,6 +15,6 @@ seqdiag
 actdiag
 nwdiag
 
-#No install of ngspice atm
+#No install of ngspice in apt.txt atm
 #PySpice
 
