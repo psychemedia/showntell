@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head><meta charset="utf-8" />
-<title>OpenLearn - ICTs - Information</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
+<title>OpenLearn_ICTs_Information</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
 
 <style type="text/css">
@@ -11784,7 +11784,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[11]:</div>
+<div class="prompt input_prompt">In&nbsp;[4]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">sympy</span> <span class="k">import</span> <span class="o">*</span>
@@ -11799,7 +11799,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[12]:</div>
+<div class="prompt input_prompt">In&nbsp;[5]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">i</span><span class="p">,</span><span class="n">v</span><span class="p">,</span><span class="n">r</span><span class="o">=</span><span class="n">symbols</span><span class="p">([</span><span class="s1">&#39;i&#39;</span><span class="p">,</span><span class="s1">&#39;v&#39;</span><span class="p">,</span><span class="s1">&#39;r&#39;</span><span class="p">])</span>
@@ -11834,7 +11834,7 @@ If there is an electric circuit, the rate at which electricity flows is determin
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[15]:</div>
+<div class="prompt input_prompt">In&nbsp;[6]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">v_val</span><span class="o">=</span><span class="mi">3</span>
@@ -11848,7 +11848,7 @@ If there is an electric circuit, the rate at which electricity flows is determin
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[16]:</div>
+<div class="prompt input_prompt">In&nbsp;[7]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">##inline markdown not working properly when sympy init_printing() enabled? Adds linebreak rather inline?</span>
@@ -11863,12 +11863,12 @@ If there is an electric circuit, the rate at which electricity flows is determin
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>For example, if a battery voltage is {{v_val}} volts and the circuit resistance is {{r_val}} ohms the current flowing is:</p>
+<p>For example, if a battery voltage is {{str(v_val)}} volts and the circuit resistance is {{str(r_val)}} ohms the current flowing is:</p>
 <p>{{Eq(exp,i.subs({v:v_val,r:r_val}))}}</p>
 <p><em>or</em></p>
 <p>{{Eq(exp,Float(i.subs({v:v_val,r:r_val})))}}</p>
 <p><em>Could we display units somehow?</em></p>
-<p>The symbol for amps is a capital A, so this is written as {{Float(i.subs({v:v_val,r:r_val}))}} A. The symbol for volts is a capital V and for ohms is the capital Greek letter omega, Ω.</p>
+<p>The symbol for amps is a capital A, so this is written as {{str(Float(i.subs({v:v_val,r:r_val})))}} A. The symbol for volts is a capital V and for ohms is the capital Greek letter omega, Ω.</p>
 <p>One amp is a fairly large current flow for electronic equipment, and quite often it is easier to work in units of 1/1000 of an amp which is 1 milliamp, written as 1 mA. Similarly, a resistance of 1 ohm is very small for electronic equipment and often resistance will be expressed in units of kilohms, kΩ, which are thousands of ohms.</p>
 
 </div>
