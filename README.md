@@ -26,7 +26,7 @@ The branches of this repository contain enviroment configurations that are inten
 
 Current branches include:
 
-- [`electronics`](tree/electronics)
+- [`electronics`](../../tree/electronics)
 - [`music`](tree/music)
 - [`chemistry`](tree/chemistry)
 - [`computing`](tree/computing)
