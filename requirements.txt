@@ -9,7 +9,7 @@ sympy
 graphviz
 
 #Need to update magic?
-#eg https://gist.github.com/nilp0inter/7acfa98ef0302cebe1a7 ?
+#eg https://gist.github.com/nilp0inter/7acfa98ef0302cebe1a7 or forked https://gist.github.com/sherdim/f0293bc7b022b852185b ?
 blockdiag
 seqdiag
 actdiag
