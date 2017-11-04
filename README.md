@@ -27,13 +27,13 @@ The branches of this repository contain enviroment configurations that are inten
 Current branches include:
 
 - [`electronics`](../../tree/electronics)
-- [`music`](tree/music)
-- [`chemistry`](tree/chemistry)
-- [`computing`](tree/computing)
-- [`astronomy`](tree/astronomy)
-- [`maps`](tree/maps)
-- [`maths`](tree/maths)
-- [`R`](tree/R)
-- [`3s`](tree/3d)
+- [`music`](../../tree/music)
+- [`chemistry`](../../tree/chemistry)
+- [`computing`](../../tree/computing)
+- [`astronomy`](../../tree/astronomy)
+- [`maps`](../../tree/maps)
+- [`maths`](../../tree/maths)
+- [`R`](../../tree/R)
+- [`3s`](../../tree/3d)
 
 *(Items nearer the top of list are in a better state than ones lower down the list, which may even be empty or completely broken stubs.)*
