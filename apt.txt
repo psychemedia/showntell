@@ -1,4 +1,4 @@
 asymptote
 graphviz
 
-xetex
+texlive-xetex
