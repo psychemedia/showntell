@@ -8,3 +8,4 @@ sympy
 graphviz
 pandas
 
+git+git://github.com/robjstan/tikzmagic.git
