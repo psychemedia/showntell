@@ -1,4 +1,2 @@
-python-music21
-
 lilypond
 musescore
