@@ -2,6 +2,8 @@
 
 *Notebooks to demonstrate the authoring of __music__ related materials.*
 
+[![Binder](http://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/psychemedia/showntell/music)
+
 The notebooks (will...) show how to create rich content containing interactive and/or dynamically generated, embedded image and audio assets within a Jupyter notebook.
 
 A live demo environment can be launched via `beta.mybinder.org`.
