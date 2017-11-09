@@ -5,4 +5,6 @@ ipywidgets
 nglview
 MDAnalysis
 
-ipymol
+#needs pymol in apt.txt
+#doesnt work for me?
+#ipymol
