@@ -5,6 +5,9 @@ ipywidgets
 nglview
 MDAnalysis
 
+#this looks deprecated in favour of: https://github.com/Autodesk/notebook-molecular-visualization
+#py3Dmol
+
 #needs pymol in apt.txt
 #doesnt work for me?
 #ipymol
