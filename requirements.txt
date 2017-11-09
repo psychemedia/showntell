@@ -4,3 +4,5 @@ ipywidgets
 
 nglview
 MDAnalysis
+
+ipymol
