@@ -11,3 +11,5 @@ MDAnalysis
 #needs pymol in apt.txt
 #doesnt work for me?
 #ipymol
+
+chemview
