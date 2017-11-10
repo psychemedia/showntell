@@ -3,9 +3,11 @@
 
 #python2
 #py 2 - https://github.com/Autodesk/notebook-molecular-visualization
-pip install rdkit
-pip install moldesign 
-pip install nbmolviz
+wget https://bootstrap.pypa.io/get-pip.py
+python2.7 get-pip.py
+pip2.7 install rdkit
+pip2.7 install moldesign 
+pip2.7 install nbmolviz
 
 
 #upgrades
