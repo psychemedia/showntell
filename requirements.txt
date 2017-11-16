@@ -3,15 +3,18 @@ ipywidgets
 jupyter_contrib_nbextensions
 jupyter-wysiwyg
 
+#magics
 metakernel
 
+#Code prettify
+#http://jupyter-contrib-nbextensions.readthedocs.io/en/latest/nbextensions/code_prettify/README_autopep8.html
+autopep8
+yapf
 
-#https://github.com/lgpage/nbtutor - BROKEN?
+#https://github.com/lgpage/nbtutor
 nbtutor
 
 #https://github.com/gkvoelkl/ipython-turtle-widget/
 ipyturtle
 
 
-#http://jupyter-contrib-nbextensions.readthedocs.io/en/latest/nbextensions/code_prettify/README_autopep8.html
-autopep8

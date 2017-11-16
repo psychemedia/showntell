@@ -3,6 +3,13 @@
 jupyter contrib nbextension install --user
 jupyter nbextension enable widgetsnbextension  --py --user
 jupyter nbextension enable python-markdown/main  --py --user
+jupyter nbextension enable codefolding/main  --py --user
+jupyter nbextension enable freeze/main  --py --user
+jupyter nbextension enable varInspector/main  --py --user
+jupyter nbextension enable python-markdown/main  --py --user
+jupyter nbextension enable snippets_menu/main  --py --user
+jupyter nbextension enable skip-traceback/main  --py --user
+
 
 jupyter-nbextension install rise --py --user
 jupyter-nbextension enable rise  --py --user 
