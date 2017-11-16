@@ -1,13 +1,21 @@
 #!/bin/bash
 
 jupyter contrib nbextension install --user
+jupyter-nbextension install widgetsnbextension  --py --user
 jupyter nbextension enable widgetsnbextension  --py --user
+jupyter-nbextension install python-markdown/main  --py --user
 jupyter nbextension enable python-markdown/main  --py --user
+jupyter-nbextension install codefolding/main  --py --user
 jupyter nbextension enable codefolding/main  --py --user
+jupyter-nbextension install freeze/main  --py --user
 jupyter nbextension enable freeze/main  --py --user
+jupyter-nbextension install varInspector/main  --py --user
 jupyter nbextension enable varInspector/main  --py --user
+jupyter-nbextension install python-markdown/main  --py --user
 jupyter nbextension enable python-markdown/main  --py --user
+jupyter-nbextension install snippets_menu/main  --py --user
 jupyter nbextension enable snippets_menu/main  --py --user
+jupyter-nbextension install skip-traceback/main  --py --user
 jupyter nbextension enable skip-traceback/main  --py --user
 
 
