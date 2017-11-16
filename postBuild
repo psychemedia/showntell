@@ -1,22 +1,6 @@
 #!/bin/bash
 
 jupyter contrib nbextension install --user
-jupyter-nbextension install widgetsnbextension  --py --user
-jupyter nbextension enable widgetsnbextension  --py --user
-jupyter-nbextension install python-markdown/main  --py --user
-jupyter nbextension enable python-markdown/main  --py --user
-jupyter-nbextension install codefolding/main  --py --user
-jupyter nbextension enable codefolding/main  --py --user
-jupyter-nbextension install freeze/main  --py --user
-jupyter nbextension enable freeze/main  --py --user
-jupyter-nbextension install varInspector/main  --py --user
-jupyter nbextension enable varInspector/main  --py --user
-jupyter-nbextension install python-markdown/main  --py --user
-jupyter nbextension enable python-markdown/main  --py --user
-jupyter-nbextension install snippets_menu/main  --py --user
-jupyter nbextension enable snippets_menu/main  --py --user
-jupyter-nbextension install skip-traceback/main  --py --user
-jupyter nbextension enable skip-traceback/main  --py --user
 
 
 jupyter-nbextension install rise --py --user
@@ -29,6 +13,17 @@ jupyter nbextension install --overwrite --py --user nbtutor
 jupyter nbextension enable --py --user nbtutor
 
 jupyter nbextension enable --py --sys-prefix ipyturtle
+
+#Enable standard extensions
+jupyter nbextension enable --py --sys-prefix widgetsnbextension
+jupyter nbextension enable --py --sys-prefix python-markdown/main
+jupyter nbextension enable --py --sys-prefix codefolding/main
+jupyter nbextension enable --py --sys-prefix freeze/main
+jupyter nbextension enable --py --sys-prefix varInspector/main
+jupyter nbextension enable --py --sys-prefix python-markdown/main
+jupyter nbextension enable --py --sys-prefix snippets_menu/main
+jupyter nbextension enable --py --sys-prefix skip-traceback/main
+
 
 # Notebooks w/ extensions that auto-run code must be "trusted" to work the first time
 jupyter trust index.ipynb
