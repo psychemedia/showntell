@@ -1,5 +1,3 @@
-#Dependencies for LaTeX output
-
 pandoc
 
 texlive-latex-base
