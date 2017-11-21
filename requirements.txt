@@ -9,3 +9,6 @@ jupyter-wysiwyg
 
 # Slideshow
 RISE
+
+#Notebook zip downloader
+nbzip

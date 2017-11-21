@@ -15,14 +15,21 @@ jupyter nbextension enable hide_input/main
 jupyter nbextension enable hide_input_all/main
 jupyter nbextension enable export_embedded/main
 
+#https://github.com/damianavila/RISE
 jupyter-nbextension install rise --py --user
 jupyter-nbextension enable rise  --py --user 
 
+#https://github.com/genepattern/jupyter-wysiwyg
 jupyter-nbextension install jupyter_wysiwyg --py --user
 jupyter nbextension enable jupyter_wysiwyg  --py --user 
 
-pip3 install --upgrade --force-reinstall ${THISDIR}/nbextensions/wordexport
+#https://github.com/data-8/nbzip
+jupyter serverextension enable --py nbzip --sys-prefix
+jupyter nbextension install --py nbzip
+jupyter nbextension enable --py nbzip
 
+
+pip3 install --upgrade --force-reinstall ${THISDIR}/nbextensions/wordexport
 #Enable the wordexport extension
 jupyter bundlerextension enable --py wordexport.wordexport  --sys-prefix
 
