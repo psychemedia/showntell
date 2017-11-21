@@ -1,0 +1,11 @@
+#Dependencies for LaTeX output
+
+pandoc
+
+texlive-latex-base
+texlive-latex-recommended
+texlive-science
+texlive-latex-extra
+texlive-fonts-recommended
+dvipng
+ghostscript

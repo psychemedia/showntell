@@ -1,14 +1,30 @@
 #!/bin/bash
+THISDIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
 jupyter contrib nbextension install --user
-jupyter nbextension enable widgetsnbextension  --py --user
-jupyter nbextension enable python-markdown/main  --py --user
+jupyter nbextension enable widgetsnbextension
+jupyter nbextension enable python-markdown/main 
+jupyter nbextension enable spellchecker/main
+jupyter nbextension enable collapsible_headings/main
+jupyter nbextension enable toc2/main
+jupyter nbextension enable freeze/main
+jupyter nbextension table_beautifier/main
+jupyter nbextension highlighter/highlighter
+jupyter nbextension equation-numbering/main
+jupyter nbextension hide_input/main
+jupyter nbextension hide_input_all/main
+jupyter nbextension export_embedded/main
 
 jupyter-nbextension install rise --py --user
 jupyter-nbextension enable rise  --py --user 
 
 jupyter-nbextension install jupyter_wysiwyg --py --user
 jupyter nbextension enable jupyter_wysiwyg  --py --user 
+
+pip3 install --upgrade --force-reinstall ${THISDIR}/nbextensions/wordexport
+
+#Enable the wordexport extension
+jupyter bundlerextension enable --py wordexport.wordexport  --sys-prefix
 
 # Notebooks w/ extensions that auto-run code must be "trusted" to work the first time
 jupyter trust index.ipynb

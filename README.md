@@ -2,7 +2,19 @@
 
 The branches in this repository create pre-configured containers that demonstrate a range of subject specific  notebooks capable of generating media rich content from scratch.
 
-The notebooks should be treated as *generative documents* that contain instructions for generating the media assets that are included within them.
+## `master` Branch
+
+The notebooks contained in this branch demonstrate how notebooks can be used for simple content authoring.
+
+[![Binder](http://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/psychemedia/showntell/master)
+
+(Demonstrations of how to create rich generated content appropriate to particular topic areas are provided in the repository branches.)
+
+## Generative Documents
+
+The notebooks should be treated as *generative documents* that contain instructions for generating the media assets that are included within them. *Generative documents* can be executed to produce static or interactive *generated documents* that contain rendered assets or interactives (such as interactive maps).
+
+*The phrase (`computational narrative`](https://blog.jupyter.org/project-jupyter-computational-narratives-as-the-engine-of-collaborative-data-science-2b5fb94c3c58) is often used to describe the style of document that can be written using computational notebooks. Stephen Wolfram has also used the phrase [__computational essay__](http://blog.stephenwolfram.com/2017/11/what-is-a-computational-essay/) to describe similar sorts of document: "A computational essay is in effect an intellectual story told through a collaboration between a human author and a computer. ... There are basically three kinds of things here. First, ordinary text (here in English). Second, computer input. And third, computer output. And the crucial point is that these three kinds of these all work together to express what’s being communicated."*
 
 Media assets include, but are not limited to, scientific diagrams and charts, audio files, static and interactive maps and musical notation.
 
@@ -20,20 +32,21 @@ Drawing on ideas of generative music (music that is ever changing and created in
 
 ## Topic Specific Examples
 
-The branches of this repository contain enviroment configurations that are intended to support examples in particular topic areas.
+The branches of this repository contain environment configurations and demonstation noteooks that are intended to provide worked examples of rich content in particular topic areas.
 
-*Examples in the branches are still in an early state of preparation. Some of the notebook extensions that hep render rich components may be in a state of disrepair or interact badly with each other. At this stage, the idea is to try to get across an idea of what is possible, and view bugs and issues as things that can be quickly and easily fixed (hopefully!), rather than as blockers.*
+*Examples in the branches are still in an early state of preparation. Some of the notebook extensions that help render rich components may be in a state of disrepair or interact badly with each other. At this stage, the idea is to try to get across an idea of what is possible, and view bugs and issues as things that can be quickly and easily fixed (hopefully!), rather than as blockers.*
 
 Current branches include:
 
+- [`master`](.)
+- [`computing`](../../tree/computing)
 - [`electronics`](../../tree/electronics)
 - [`music`](../../tree/music)
 - [`chemistry`](../../tree/chemistry)
-- [`computing`](../../tree/computing)
 - [`astronomy`](../../tree/astronomy)
 - [`maps`](../../tree/maps)
 - [`maths`](../../tree/maths)
 - [`R`](../../tree/R)
-- [`3s`](../../tree/3d)
+- [`3d`](../../tree/3d)
 
 *(Items nearer the top of list are in a better state than ones lower down the list, which may even be empty or completely broken stubs.)*

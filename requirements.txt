@@ -1,4 +1,11 @@
-RISE
+#Notebook widgets
 ipywidgets
+
+#Common extensions
 jupyter_contrib_nbextensions
+
+#WYSIWYG editor
 jupyter-wysiwyg
+
+# Slideshow
+RISE
