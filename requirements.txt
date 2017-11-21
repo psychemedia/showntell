@@ -12,3 +12,6 @@ RISE
 
 #Notebook zip downloader
 nbzip
+
+#Notebook differ
+nbdime

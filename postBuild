@@ -28,10 +28,12 @@ jupyter serverextension enable --py nbzip --sys-prefix
 jupyter nbextension install --py nbzip
 jupyter nbextension enable --py nbzip
 
-
 pip3 install --upgrade --force-reinstall ${THISDIR}/nbextensions/wordexport
 #Enable the wordexport extension
 jupyter bundlerextension enable --py wordexport.wordexport  --sys-prefix
+
+#nbdime
+nbdime reg-extensions --sys-prefix
 
 # Notebooks w/ extensions that auto-run code must be "trusted" to work the first time
 jupyter trust index.ipynb
