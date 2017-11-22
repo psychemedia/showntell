@@ -8,7 +8,7 @@ jupyter-wysiwyg
 vpython
 
 #https://github.com/jovyan/pythreejs
-git+https://github.com/jovyan/pythreejs.git
+pythreejs
 
 #https://ipyvolume.readthedocs.io/en/latest/
 git+https://github.com/maartenbreddels/ipyvolume.git

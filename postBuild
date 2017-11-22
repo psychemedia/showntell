@@ -13,7 +13,7 @@ jupyter nbextension enable jupyter_wysiwyg  --py --user
 
 jupyter nbextension enable --py --user ipyvolume
 
-jupyter nbextension install --py --symlink --user pythreejs
+jupyter nbextension install --py --user pythreejs
 jupyter nbextension enable --py --user pythreejs
 
 # Notebooks w/ extensions that auto-run code must be "trusted" to work the first time
