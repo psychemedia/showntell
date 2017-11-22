@@ -3,6 +3,8 @@
 jupyter contrib nbextension install --user
 jupyter nbextension enable widgetsnbextension
 jupyter nbextension enable python-markdown/main
+jupyter nbextension enable hide_input/main
+jupyter nbextension enable hide_input_all/main
 
 jupyter-nbextension install rise --py --user
 jupyter-nbextension enable rise  --py --user 
@@ -11,7 +13,8 @@ jupyter-nbextension install jupyter_wysiwyg --py --user
 jupyter nbextension enable jupyter_wysiwyg  --py --user 
 
 
-jupyter nbextension enable --py --user ipyvolume
+jupyter nbextension install --py --user ipyvolume
+jupyter nbextension enable ipyvolume --user --py
 
 jupyter nbextension install --py --user pythreejs
 jupyter nbextension enable --py --user pythreejs

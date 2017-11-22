@@ -9,6 +9,7 @@ vpython
 
 #https://github.com/jovyan/pythreejs
 pythreejs
+pandas3js
 
 #https://ipyvolume.readthedocs.io/en/latest/
 git+https://github.com/maartenbreddels/ipyvolume.git
