@@ -3,10 +3,18 @@ ipywidgets
 jupyter_contrib_nbextensions
 jupyter-wysiwyg
 
-matplotlib
+#Working with geodata
 pandas
 geopandas
+
+#Base maps
+matplotlib
+cartopy
+
+#Interactive map packages
 folium
 ipyleaflet
+
+
 
 #git+https://github.com/OpenGeoscience/geonotebook
