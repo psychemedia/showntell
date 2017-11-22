@@ -1,5 +1,5 @@
 RISE
-ipywidgets
+ipywidgets~=7.0.0b1
 jupyter_contrib_nbextensions
 jupyter-wysiwyg
 
@@ -8,7 +8,7 @@ jupyter-wysiwyg
 vpython
 
 #https://github.com/jovyan/pythreejs
-pythreejs
+git+https://github.com/jovyan/pythreejs.git
 
 #https://ipyvolume.readthedocs.io/en/latest/
-ipyvolume
+git+https://github.com/maartenbreddels/ipyvolume.git
