@@ -1,0 +1,16 @@
+RISE
+jupyter-wysiwyg
+ipywidgets
+
+nglview
+MDAnalysis
+
+#py3Dmol looks deprecated in favour of: https://github.com/Autodesk/notebook-molecular-visualization - nbmolviz
+#py3Dmol
+nbmolviz
+
+#needs pymol in apt.txt
+#doesn’t work for me?
+ipymol
+
+chemview

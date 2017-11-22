@@ -1,15 +1,5 @@
 #!/bin/bash
 
-
-#python2
-#py 2 - https://github.com/Autodesk/notebook-molecular-visualization
-wget https://bootstrap.pypa.io/get-pip.py
-python2.7 get-pip.py
-pip2.7 install rdkit
-pip2.7 install moldesign 
-pip2.7 install nbmolviz
-
-
 #upgrades
 pip3 install --upgrade ipywidgets
 
@@ -26,6 +16,9 @@ jupyter nbextension enable --py jupyter_wysiwyg
 
 jupyter nbextension install --user --py --symlink chemview
 jupyter nbextension enable --user --py  chemview
+
+jupyter nbextension install --py --symlink --user nbmolviz
+$ jupyter nbextension enable --py --user nbmolviz
 
 # Notebooks w/ extensions that auto-run code must be "trusted" to work the first time
 jupyter trust index.ipynb
