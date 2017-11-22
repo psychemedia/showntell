@@ -11,7 +11,7 @@ geopandas
 matplotlib
 
 numpy
-proj.4
+pyproj
 geos
 shapely
 owslib
