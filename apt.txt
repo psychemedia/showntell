@@ -1,2 +1,3 @@
 asymptote
 graphviz
+texlive-xetex
