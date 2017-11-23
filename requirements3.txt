@@ -10,3 +10,6 @@ MDAnalysis
 ipymol
 
 chemview
+chemlab
+
+mathchem
