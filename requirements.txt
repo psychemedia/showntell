@@ -9,6 +9,7 @@ geopandas
 
 #Base maps
 matplotlib
+git+https://github.com/matplotlib/basemap.git
 Pillow
 
 numpy
