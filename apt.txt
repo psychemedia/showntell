@@ -1,2 +1,3 @@
-libproj
 libproj-dev
+libgeos-dev
+python-mpltoolkits.basemap

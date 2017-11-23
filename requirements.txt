@@ -9,14 +9,17 @@ geopandas
 
 #Base maps
 matplotlib
+Pillow
 
 numpy
+scipy
 pyproj
 geos
 shapely
 owslib
 pyshp
 owslib
+netCDF4
 cartopy
 
 #Interactive map packages
