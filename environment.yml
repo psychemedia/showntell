@@ -4,11 +4,13 @@ channels:
   - rdkit
   - schrodinger
   - gabrielelanaro
+  - moldesign
 dependencies:
   - python
   - numpy
   - pymol
   - rdkit
+  - chemview
   - pip:
     - RISE
     - jupyter-wysiwyg
@@ -17,4 +19,4 @@ dependencies:
     - ipymol
     - mathchem
     - mogli
-    - git+https://github.com/autodesk/molecular-design-toolkit
+    - moldesign 
