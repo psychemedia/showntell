@@ -4,12 +4,14 @@ channels:
   - rdkit
   - schrodinger
   - moldesign
+  - openbabel
 dependencies:
   - python
   - numpy
   - pymol
   - rdkit
   - moldesign
+  - openbabel 
   - pip:
     - RISE
     - jupyter-wysiwyg
@@ -17,3 +19,5 @@ dependencies:
     - nglview
     - ipymol
     - mathchem
+    - nbmolviz==0.7.0rc9
+    - pypdb
