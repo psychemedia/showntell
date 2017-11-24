@@ -1,3 +1,16 @@
-#Python2 requirements
-moldesign 
+RISE
+jupyter-wysiwyg
+ipywidgets~=7.0.0b1
+
+nglview
+MDAnalysis
+
+ipymol
+
+chemview
+chemlab
+
+mathchem
+
+git+https://github.com/autodesk/molecular-design-toolkit
 nbmolviz
