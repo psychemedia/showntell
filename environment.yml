@@ -1,6 +1,7 @@
 name: chemistry-environment
 channels:
   - conda-forge
+  - schrodinger
   - gabrielelanaro
 dependencies:
   - python
