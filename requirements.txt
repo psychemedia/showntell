@@ -13,4 +13,4 @@ chemview
 mathchem
 
 git+https://github.com/autodesk/molecular-design-toolkit
-nbmolviz
+#nbmolviz
