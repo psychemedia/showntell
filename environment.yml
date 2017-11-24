@@ -3,14 +3,12 @@ channels:
   - conda-forge
   - rdkit
   - schrodinger
-  - gabrielelanaro
   - moldesign
 dependencies:
   - python
   - numpy
   - pymol
   - rdkit
-  - chemview
   - pip:
     - RISE
     - jupyter-wysiwyg
