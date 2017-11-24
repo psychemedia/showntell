@@ -14,8 +14,9 @@ jupyter-nbextension install --py jupyter_wysiwyg --user
 jupyter nbextension enable --py jupyter_wysiwyg
 
 
-jupyter nbextension install --user --py --symlink chemview
-jupyter nbextension enable --user --py  chemview
+#requires pip chemview but py2 dependency?
+#jupyter nbextension install --user --py --symlink chemview
+#jupyter nbextension enable --user --py  chemview
 
 jupyter nbextension install --py --symlink --user nbmolviz
 $ jupyter nbextension enable --py --user nbmolviz

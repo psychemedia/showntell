@@ -1,14 +1,15 @@
 name: chemistry-environment
 channels:
   - conda-forge
+  - rdkit
   - schrodinger
   - gabrielelanaro
 dependencies:
   - python
   - numpy
   - mdanalysis
-  - chemview
   - pymol
+  - rdkit
   - pip:
     - RISE
     - jupyter-wysiwyg
