@@ -9,6 +9,7 @@ dependencies:
   - numpy
   - pymol
   - rdkit
+  - moldesign
   - pip:
     - RISE
     - jupyter-wysiwyg
@@ -17,4 +18,3 @@ dependencies:
     - ipymol
     - mathchem
     - mogli
-    - moldesign 
