@@ -1,6 +1,0 @@
-python-dev
-build-essential
-python-rdkit
-librdkit1
-rdkit-data
-pymol

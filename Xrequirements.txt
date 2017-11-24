@@ -1,3 +1,0 @@
-#Python2 requirements
-moldesign 
-nbmolviz

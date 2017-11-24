@@ -1,0 +1,19 @@
+name: chemistry-environment
+channels:
+  - conda-forge
+  - gabrielelanaro
+dependencies:
+  - python
+  - numpy
+  - mdanalysis
+  - chemview
+  - pymol
+  - pip:
+    - RISE
+    - jupyter-wysiwyg
+    - ipywidgets~=7.0.0b1
+    - nglview
+    - ipymol
+    - mathchem
+    - mogli
+    - git+https://github.com/autodesk/molecular-design-toolkit
