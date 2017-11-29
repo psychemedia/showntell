@@ -1,5 +1,5 @@
 RISE
-ipywidgets
+ipywidgets~=7.0.0b1
 jupyter_contrib_nbextensions
 jupyter-wysiwyg
 
@@ -27,6 +27,20 @@ cartopy
 folium
 ipyleaflet
 
+#Satellite maps
+git+https://github.com/sat-utils/sat-download.git
 
+#3d - nb https://github.com/sinhrks/cesiumpy/issues/72
+cesiumpy
+
+#google maps api - key required?
+gmaps
+
+#mapbox api / key required
+mapboxgl
+git+https://github.com/chelm/jupyter-map-gl.git
+
+#to try:
+#https://github.com/g07kore/google_earth_engine_python_examples
 
 #git+https://github.com/OpenGeoscience/geonotebook
