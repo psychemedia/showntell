@@ -16,6 +16,8 @@ jupyter nbextension enable --py jupyter_map_gl
 
 jupyter nbextension enable --py --sys-prefix gmaps
 
+jupyter nbextension enable --py --sys-prefix bqplot
+
 #jupyter serverextension enable --sys-prefix --py geonotebook
 #jupyter nbextension enable --sys-prefix --py geonotebook
 
