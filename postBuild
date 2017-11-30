@@ -3,6 +3,8 @@
 jupyter contrib nbextension install --user
 jupyter nbextension enable widgetsnbextension  --py --user
 jupyter nbextension enable python-markdown/main  --py --user
+jupyter nbextension enable hide_input/main
+jupyter nbextension enable hide_input_all/main
 
 jupyter-nbextension install rise --py --user
 jupyter-nbextension enable rise  --py --user 
@@ -12,9 +14,9 @@ jupyter nbextension enable jupyter_wysiwyg  --py --user
 
 jupyter nbextension enable --py --sys-prefix ipyleaflet
 
-jupyter nbextension enable --py jupyter_map_gl
+#jupyter nbextension enable --py --sys-prefix jupyter_map_gl
 
-jupyter nbextension enable --py --sys-prefix gmaps
+#jupyter nbextension enable --py --sys-prefix gmaps
 
 jupyter nbextension enable --py --sys-prefix bqplot
 
