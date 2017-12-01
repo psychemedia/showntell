@@ -23,8 +23,5 @@ jupyter nbextension enable --py --sys-prefix bqplot
 #jupyter serverextension enable --sys-prefix --py geonotebook
 #jupyter nbextension enable --sys-prefix --py geonotebook
 
-# Notebooks w/ extensions that auto-run code must be "trusted" to work the first time
-jupyter trust index.ipynb
-jupyter trust index_maps.ipynb
-jupyter trust Projection_demo.ipynb
+
 
