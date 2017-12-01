@@ -1,2 +1,0 @@
-libproj-dev
-libgeos-dev
