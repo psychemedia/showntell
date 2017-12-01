@@ -1,9 +1,5 @@
-# showntell - `maps`
+# showntell - `maps_docker`
 
-The branches in this repository create pre-configured containers that demonstrate a range of subject specific  notebooks.
+This branch just shows a minimum viable Binder config to launch a geo-focussed container (`pscyhemedia/binder_maps`) from a Github repo.
 
-[![Binder](http://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/psychemedia/showntell/maps)
-
-The notebooks show how to create rich notebooks containing interactive and/or dynamically generated, embedded content assets within a Jupyter notebook.
-
-The containers can be launcged via beta.mybinder.org
+Any files in the repo will also be copied over.
