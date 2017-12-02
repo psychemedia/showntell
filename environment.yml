@@ -22,3 +22,4 @@ dependencies:
     - mathchem
     - nbmolviz==0.7.0rc9
     - pypdb
+    - pubchempy

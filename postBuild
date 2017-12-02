@@ -1,8 +1,5 @@
 #!/bin/bash
 
-#upgrades
-pip3 install --upgrade ipywidgets
-
 jupyter contrib nbextension install --user
 jupyter-nbextension install rise --py --user
 jupyter-nbextension enable rise
