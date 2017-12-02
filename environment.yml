@@ -1,0 +1,32 @@
+name: 
+channels:
+  - conda-forge
+  - openastronomy
+  - astropy
+  - auto
+dependencies:
+  - python
+  - matplotlib
+  - basemap
+  - scipy
+  - pandas
+  - vtk
+  - mayavi
+  - astropy
+  - skyfield
+  - aplpy
+  - pyregion
+  - pyephem
+  - jplephem
+  - sgp4
+  - poliastro
+  - pip:
+    - jupyter_contrib_nbextensions
+    - RISE
+    - jupyter-wysiwyg
+    - ipywidgets~=7.0.0b1
+    - pyavm
+    - montage-wrapper
+
+    
+    

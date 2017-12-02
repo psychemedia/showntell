@@ -1,1 +1,3 @@
+libproj-dev
+libgeos-dev
 montage
