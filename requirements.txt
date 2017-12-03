@@ -1,11 +1,12 @@
 RISE
 jupyter-wysiwyg
 jupyter_contrib_nbextensions
-ipywidgets
+ipywidgets~=7.0.0b1
 
 matplotlib
 sympy
 graphviz
 pandas
 
-git+git://github.com/robjstan/tikzmagic.git
+#git+git://github.com/robjstan/tikzmagic.git
+git+git://github.com/mkrphys/ipython-tikzmagic.git
