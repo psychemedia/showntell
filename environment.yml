@@ -10,8 +10,6 @@ dependencies:
   - basemap
   - scipy
   - pandas
-  - vtk
-  - mayavi
   - astropy
   - skyfield
   - aplpy

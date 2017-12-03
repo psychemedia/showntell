@@ -14,7 +14,7 @@ jupyter nbextension enable jupyter_wysiwyg  --py --user
 
 
 #jupyter nbextension enable --py --sys-prefix vizic
-jupyter nbextension install --py mayavi --user
+#jupyter nbextension install --py mayavi --user
 
 # Notebooks w/ extensions that auto-run code must be "trusted" to work the first time
 jupyter trust index.ipynb
