@@ -6,6 +6,7 @@ jupyter-wysiwyg
 
 #Music packages
 music21
+abjad
 
 matplotlib
 numpy
