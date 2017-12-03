@@ -20,6 +20,8 @@ dependencies:
   - jplephem
   - sgp4
   - poliastro
+  - pysolar
+  - sunpy
   - pip:
     - jupyter_contrib_nbextensions
     - RISE
@@ -27,6 +29,8 @@ dependencies:
     - ipywidgets~=7.0.0b1
     - pyavm
     - montage-wrapper
+    - pdsimage
+    - pyhorizon
 
     
     
