@@ -8,6 +8,7 @@ jupyter-wysiwyg
 music21
 abjad
 
+#Utility
 matplotlib
 numpy
 scipy

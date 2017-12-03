@@ -1,2 +1,3 @@
 lilypond
 musescore
+timidity
