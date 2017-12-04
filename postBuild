@@ -6,7 +6,7 @@ jupyter nbextension enable python-markdown/main
 jupyter nbextension enable hide_input/main
 jupyter nbextension enable hide_input_all/main
 
-jupyter-nbextension install rise --py --user
+jupyter-nbextension install rise --py --user --symlink
 jupyter-nbextension enable rise  --py --user 
 
 jupyter-nbextension install jupyter_wysiwyg --py --user
