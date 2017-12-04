@@ -1,8 +1,9 @@
 RISE
 jupyter_contrib_nbextensions
 jupyter-wysiwyg
-ipywidgets
+ipywidgets~=7.0.0b1
 
+scipy
 matplotlib
 schemdraw
 sympy
@@ -15,6 +16,10 @@ seqdiag
 actdiag
 nwdiag
 
-#No install of ngspice in apt.txt atm
+#Issue installing ngspice apt-package?
 #PySpice
+#skidl
+
+pyeda
+ahkab
 
