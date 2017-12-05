@@ -9,4 +9,4 @@ graphviz
 pandas
 
 #git+git://github.com/robjstan/tikzmagic.git
-git+git://github.com/mkrphys/ipython-tikzmagic.git
+#git+git://github.com/mkrphys/ipython-tikzmagic.git
