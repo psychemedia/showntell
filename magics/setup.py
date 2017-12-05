@@ -1,5 +1,5 @@
 from setuptools import setup
 
-setup(name='Magics',
+setup(name='patchedMagics',
       packages=['tikz_magic', 'asymptote_magic']
 )

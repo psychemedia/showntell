@@ -144,7 +144,7 @@ class AsymptoteMagic(Magics):
         elif args.asy_file:
             return self.run_asy(args.asy_file, fmt=args.fmt)
         elif args.var:
-            with TemporaryAsymptoteFile(eval(args.var)) as tmp_asy:
+            with TemporaryAsymptoteFile(self.shell.user_ns[args.var]) as tmp_asy:
                 return self.run_asy(tmp_asy.asy_files[0], fmt=args.fmt)
     def run_asy(self, asy_file, img_file=None, fmt="png"):
         """Runs asy code in asy_file and returns IPython image"""
