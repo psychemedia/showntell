@@ -1,4 +1,5 @@
 #!/bin/bash
+pip install  ./magics
 
 jupyter contrib nbextension install --user
 jupyter nbextension enable widgetsnbextension

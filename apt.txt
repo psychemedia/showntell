@@ -1,2 +1,3 @@
 inkscape 
 graphviz
+texlive-xetex
