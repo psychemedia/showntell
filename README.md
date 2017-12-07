@@ -13,6 +13,6 @@ Example notebooks include:
 
 ### Example Slideshow:
 
-The `index_maths.ipynb` additionally has cells marked up for use in a slideshow. From the notebook *Cell* menu select *Run All* to execute all the cells and then enter the slideshow using the *Enter/Exit RISE Slideshow* toolbar buttom (it looks like a bar chart). Exit the presentation using the cross in the topleft of the slideshow display.
+The `index_maths.ipynb` additionally has cells marked up for use in a slideshow. From the notebook *Cell* menu select *Run All* to execute all the cells and then enter the slideshow using the *Enter/Exit RISE Slideshow* toolbar button (it looks like a bar chart). Exit the presentation using the cross in the topleft of the slideshow display.
 
 To see the slideshow markup, go to the notebook *View* menu and select *Cell Toolbar* and then *Slideshow*. Reset the notebook disable using *View > Cell Toolbar > None*.
