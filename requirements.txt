@@ -1,25 +1,36 @@
+# Electronics packages
+
+## Notebook Extensions
 RISE
 jupyter_contrib_nbextensions
 jupyter-wysiwyg
 ipywidgets~=7.0.0b1
 
+# Generic Packages
 scipy
 matplotlib
-schemdraw
 sympy
 graphviz
 
-#Need to update magic?
-#eg https://gist.github.com/nilp0inter/7acfa98ef0302cebe1a7 or forked https://gist.github.com/sherdim/f0293bc7b022b852185b ?
+## General Diagrams
+
+## Block Diagram generators - requires inkscape for SVG output
 blockdiag
 seqdiag
 actdiag
 nwdiag
 
-#Issue installing ngspice apt-package?
-#PySpice
-#skidl
+## Schematic Diagrams
+schemdraw
 
+## Analysis
 pyeda
 ahkab
 
+
+### Linear Circuit Analysis; also uses circuitikz to render circuit schematics
+git+https://github.com/mph-/lcapy.git
+
+#Issue installing ngspice apt-package?
+#PySpice
+#skidl
