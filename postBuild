@@ -1,6 +1,9 @@
 #!/bin/bash
 pip install  ./magics
 
+
+tlmgr init-usertree && tlmgr install --reinstall simplekv scratch 
+
 jupyter contrib nbextension install --user
 jupyter nbextension enable widgetsnbextension
 jupyter nbextension enable python-markdown/main

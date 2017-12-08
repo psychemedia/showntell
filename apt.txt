@@ -1,3 +1,6 @@
 inkscape 
 graphviz
+asymptote
+texlive-pictures
 texlive-xetex
+xzdec
