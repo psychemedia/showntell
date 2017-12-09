@@ -1,5 +1,7 @@
 #!/bin/bash
 
+pip install ./magics
+
 # Notebooks w/ extensions that auto-run code must be "trusted" to work the first time
 jupyter trust index.ipynb
 jupyter trust index_maps.ipynb
