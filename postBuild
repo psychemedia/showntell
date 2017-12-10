@@ -1,5 +1,10 @@
 #!/bin/bash
 
+apt-get update && apt-get install -y libgdal-dev gdal-bin libproj-dev proj-data proj-bin
+
+npm install -g topojson 
+npm install -g shapefile
+ 
 pip install git+https://github.com/LokiTechnologies/EqualAreaCartogram.git
 pip install git+https://github.com/psychemedia/ipython_magic_folium.git
 
