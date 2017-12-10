@@ -1,5 +1,6 @@
 #!/bin/bash
 
+pip install git+https://github.com/LokiTechnologies/EqualAreaCartogram.git
 pip install ./magics
 
 # Notebooks w/ extensions that auto-run code must be "trusted" to work the first time
