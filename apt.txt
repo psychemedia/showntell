@@ -1,2 +1,8 @@
 libproj-dev
 libgeos-dev
+libgdal-dev
+gdal-bin
+proj-data
+proj-bin
+r-base
+r-recommended

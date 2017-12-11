@@ -7,6 +7,9 @@ jupyter-wysiwyg
 pandas
 geopandas
 
+#R
+rpy2
+
 #Base maps
 matplotlib
 git+https://github.com/matplotlib/basemap.git
@@ -19,7 +22,7 @@ geos
 shapely
 owslib
 pyshp
-owslib
+pytz
 netCDF4
 cartopy
 
@@ -32,8 +35,17 @@ ipyleaflet
 #Satellite maps
 #git+https://github.com/sat-utils/sat-download.git
 
+#projections
+git+https://github.com/LokiTechnologies/EqualAreaCartogram.git
+
+
 #3d - nb https://github.com/sinhrks/cesiumpy/issues/72
 cesiumpy
+
+
+#Magic
+git+https://github.com/psychemedia/ipython_magic_folium.git
+
 
 #google maps api - key required?
 #gmaps
