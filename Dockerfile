@@ -1,10 +1,11 @@
 FROM psychemedia/binder_maps
 
+
 # Make sure the contents of our repo are in ${HOME}
 COPY . ${HOME}
 
-
 USER root
+
 
 #Run any catch-up stuff
 #Should this be running as another user?
