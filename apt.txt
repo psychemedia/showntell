@@ -1,3 +1,4 @@
 asymptote
 graphviz
+texlive-science
 texlive-xetex

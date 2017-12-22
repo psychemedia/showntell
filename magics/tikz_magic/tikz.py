@@ -21,48 +21,6 @@ LATEX_TEMPLATE = r'''
 {content}
 \end{{document}}'''
 
-class TikzException(RuntimeError):
-    """
-    Simple wrapper class for wrapping Asymptote
-    interpreter error messages in a stack trace.
-    """
-    
-    def __init__(self, asy_err_msg):
-        self.asy_err_msg = asy_err_msg
-        
-    def __str__(self):
-        return str(self.asy_err_msg)
-
-class TemporaryTikzFile(object):
-    """
-    Temporary locations to write asymptote code files
-    compatible with python's "with" construct.
-    """
-    
-    def __init__(self, asy_codes):
-        """
-        Parameters
-        ----------
-        asy_code : list(str) - list of strings, each string
-            corresponding to code for an Asymptote file
-            (including newlines, etc).
-        """
-        self.tmp_dir = tempfile.mkdtemp()
-        self.asy_files = []
-        if not isinstance(asy_codes, list):
-            asy_codes = [asy_codes]
-        for asy_code in asy_codes:
-            asy_fd, asy_file = tempfile.mkstemp(
-                suffix=".asy", dir=self.tmp_dir)
-            with os.fdopen(asy_fd, "w") as asy_fh:
-                asy_fh.write(asy_code)
-            self.asy_files.append(asy_file)
-        
-    def __enter__(self):
-        return self
-        
-    def __exit__(self, type, value, tb):
-        shutil.rmtree(self.tmp_dir)
         
 @magics_class
 class TikzMagic(Magics):
@@ -82,6 +40,7 @@ class TikzMagic(Magics):
         parser.add_argument('-e', '--export_file', default=None)
         parser.add_argument('-s', '--scale', default=1, type=float)
         parser.add_argument('-b', '--border', default=4)
+        parser.add_argument('-v', '--variable', default=None)
         parser.add_argument('--wrap', dest='wrap_env', action='store_true')
         parser.add_argument('--no-wrap', dest='wrap_env', action='store_false')
         parser.set_defaults(wrap_env=True)
@@ -95,6 +54,9 @@ class TikzMagic(Magics):
             cell += r'\input{{{cwd}/{file}}}'.format(cwd=getcwd(),
                                                      file=args.input_file)
 
+        if args.variable:
+            cell = self.shell.user_ns[args.variable]
+            
         if args.wrap_env:
             cell = r'\begin{tikzpicture}' + cell + r'\end{tikzpicture}'
 
