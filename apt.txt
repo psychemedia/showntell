@@ -1,3 +1,4 @@
+ghostscript 
 asymptote
 graphviz
 texlive-science
