@@ -2,6 +2,7 @@ pandoc
 texlive-latex-base
 texlive-latex-recommended
 texlive-science
+texlive-pictures
 texlive-latex-extra
 texlive-fonts-recommended
 dvipng
