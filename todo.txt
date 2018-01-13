@@ -1,0 +1,14 @@
+Extensions…
+
+!ipython locate
+#http://ipython.readthedocs.io/en/stable/config/custommagics.html#defining-magics
+#autostart https://stackoverflow.com/a/34655190/454773
+
+https://github.com/vibrationtoolbox/vibration_toolbox/blob/master/docs/tutorial/vibesystem_notebook.ipynb
+
+https://nagordon.github.io/mechpy/
+https://github.com/osule/mechpy
+
+https://github.com/nicolasmauhe/computational_finance/blob/master/course.ipynb
+
+http://ctan.math.utah.edu/ctan/tex-archive/graphics/pgf/contrib/tikz-feynman/tikz-feynman.pdf
