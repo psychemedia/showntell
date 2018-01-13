@@ -1,6 +1,4 @@
 #!/bin/bash
-pip install  ./magics
-
 
 tlmgr init-usertree && tlmgr install --reinstall simplekv scratch 
 

@@ -6,6 +6,9 @@ jupyter_contrib_nbextensions
 jupyter-wysiwyg
 ipywidgets~=7.0.0b1
 
+git+https://github.com/psychemedia/showntell.git@magic_asymptote
+git+https://github.com/psychemedia/showntell.git@magic_tikz
+
 # Generic Packages
 scipy
 matplotlib
