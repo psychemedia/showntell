@@ -1,5 +1,6 @@
 inkscape 
 graphviz
+gnuplot
 asymptote
 texlive-pictures
 texlive-xetex
