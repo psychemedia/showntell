@@ -10,5 +10,5 @@ jupyter-wysiwyg
 # Slideshow
 RISE
 
-#Notebook zip downloader
-nbzip
+git+https://github.com/psychemedia/showntell.git@magic_asymptote
+git+https://github.com/psychemedia/showntell.git@magic_tikz

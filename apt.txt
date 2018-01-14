@@ -1,8 +1,9 @@
 pandoc
 texlive-latex-base
 texlive-latex-recommended
-texlive-science
 texlive-latex-extra
 texlive-fonts-recommended
+texlive-xetex
+texlive-pictures
 dvipng
 ghostscript
