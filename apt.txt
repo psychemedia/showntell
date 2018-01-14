@@ -9,3 +9,4 @@ dvipng
 ghostscript
 asymptote
 texlive-xetex
+texlive-luatex
