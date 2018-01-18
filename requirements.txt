@@ -11,6 +11,5 @@ pandas
 #git+git://github.com/robjstan/tikzmagic.git
 #git+git://github.com/mkrphys/ipython-tikzmagic.git
 
-git+https://github.com/psychemedia/showntell.git@magic_asymptote
-git+https://github.com/psychemedia/showntell.git@magic_tikz
-
+git+https://github.com/innovationOUtside/ipython_magic_tikz
+git+https://github.com/innovationOUtside/ipython_magic_asymptote
