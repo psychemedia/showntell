@@ -2,3 +2,4 @@ lilypond
 musescore
 timidity
 freepats
+texlive-xetex
