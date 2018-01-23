@@ -8,3 +8,4 @@ texlive-pictures
 dvipng
 ghostscript
 python3-tk
+imagemagick
