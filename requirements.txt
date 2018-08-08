@@ -29,7 +29,10 @@ schemdraw
 ## Analysis
 pyeda
 ahkab
+control
 
+##slycot requires gfortran compiler
+#slycot
 
 ### Linear Circuit Analysis; also uses circuitikz to render circuit schematics
 git+https://github.com/mph-/lcapy.git
