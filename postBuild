@@ -3,10 +3,10 @@
 tlmgr init-usertree && tlmgr install --reinstall simplekv scratch 
 
 jupyter contrib nbextension install --user
-jupyter nbextension enable widgetsnbextension
-jupyter nbextension enable python-markdown/main
-jupyter nbextension enable hide_input/main
-jupyter nbextension enable hide_input_all/main
+!jupyter nbextension enable --py widgetsnbextension
+jupyter nbextension enable --py python-markdown/main
+jupyter nbextension enable --py hide_input/main
+jupyter nbextension enable --py hide_input_all/main
 
 jupyter-nbextension install rise --py --user
 jupyter-nbextension enable rise  --py --user 
