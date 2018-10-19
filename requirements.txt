@@ -4,7 +4,8 @@
 RISE
 jupyter_contrib_nbextensions
 jupyter-wysiwyg
-ipywidgets~=7.0.0b1
+#ipywidgets~=7.0.0b1
+ipywidgets
 
 git+https://github.com/innovationOUtside/ipython_magic_tikz
 git+https://github.com/innovationOUtside/ipython_magic_asymptote
