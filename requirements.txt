@@ -7,9 +7,13 @@ jupyter-wysiwyg
 #Music packages
 music21
 abjad
+git+https://github.com/akaihola/jupyter_abc.git
+fretboard
 
 #Utility
 matplotlib
 numpy
 scipy
+Pillow
+seaborn
 
