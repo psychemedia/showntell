@@ -25,3 +25,5 @@ dependencies:
     - pubchempy
     - chemspipy
     - chembl_webresource_client
+    - py3Dmol
+    - pymatgen
