@@ -5,7 +5,6 @@ channels:
   - schrodinger
   - moldesign
   - openbabel
-  - bjodah
 dependencies:
   - python
   - numpy
@@ -13,7 +12,6 @@ dependencies:
   - rdkit
   - moldesign
   - openbabel 
-  - chempy
   - pip:
     - jupyter_contrib_nbextensions
     - RISE
