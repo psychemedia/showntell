@@ -18,6 +18,7 @@ jupyter nbextension enable --py jupyter_wysiwyg
 #jupyter trust index.ipynb
 #jupyter trust index_electronics.ipynb
 
-#Imagemagixk broke things in the pdf->png conversion
+#Imagemagick broke things in the pdf->png conversion
 #https://stackoverflow.com/questions/42928765/convertnot-authorized-aaaa-error-constitute-c-readimage-453
-sudo sed -i '/PDF/s/none/read|write/' /etc/ImageMagick-6/policy.xml
+#This doesn't run?
+#sed -i '/PDF/s/none/read|write/' /etc/ImageMagick-6/policy.xml
