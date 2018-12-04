@@ -17,6 +17,7 @@ dependencies:
   - pyephem
   - jplephem
   - sgp4
+  - astroquery
   - poliastro
   - pysolar
   - sunpy
@@ -24,11 +25,12 @@ dependencies:
     - jupyter_contrib_nbextensions
     - RISE
     - jupyter-wysiwyg
-    - ipywidgets~=7.0.0b1
+    - ipywidgets
     - pyavm
     - montage-wrapper
     - pdsimage
     - pyhorizon
+    - orbitalpy
 
     
     
