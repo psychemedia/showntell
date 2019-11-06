@@ -1,5 +1,10 @@
 #!/bin/bash
 
+#Dependencies that somehow seemed to be missed?
+conda install -y -c openbabel openbabel
+pip install py3Dmol
+pip install pubchempy
+
 jupyter contrib nbextension install --user
 jupyter-nbextension install rise --py --user
 jupyter-nbextension enable rise
