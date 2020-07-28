@@ -2,7 +2,9 @@
 
 The branches in this repository create pre-configured containers that demonstrate a range of subject specific  notebooks capable of generating media rich content from scratch.
 
-*The notebooks are a bit dated and some of the packages may have rotted. More recent notebooks can be found at https://gettingstarted-ousefulinfo.notebooks.azure.com . I need to map those back over here to run a single repo that can generate binderhub builds and run notebooks on both Binderhub and in Azure notebooks.*
+<s>*The notebooks are a bit dated and some of the packages may have rotted. More recent notebooks can be found at https://gettingstarted-ousefulinfo.notebooks.azure.com . I need to map those back over here to run a single repo that can generate binderhub builds and run notebooks on both Binderhub and in Azure notebooks.*</s> AZURE NOTEBOOKS ARE BEING DEPRECATED, OCTOBER 2020
+
+Old Azure materials moved to: https://github.com/ouseful-demos/getting-started-with-notebooks
 
 ## `master` Branch
 
